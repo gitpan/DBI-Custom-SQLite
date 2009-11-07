@@ -1,0 +1,22 @@
+---
+name: DBI-Custom-SQLite
+version: 0.0101
+author:
+  - 'Yuki Kimoto <kimoto.yuki@gmail.com>'
+abstract: DBI::Custom SQLite implementation
+license: perl
+resources:
+  license: ~
+requires:
+  DBD::SQLite: 1.25
+  DBI::Custom::Basic: 0.0101
+build_requires:
+  Test::More: 0
+provides:
+  DBI::Custom::SQLite:
+    file: lib/DBI/Custom/SQLite.pm
+    version: 0.0101
+generated_by: Module::Build version 0.31012
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
